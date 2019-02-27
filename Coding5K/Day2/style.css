@@ -1,0 +1,47 @@
+body {
+  background-color: #F1C40F;
+  font-family: Droid Serif;
+}
+div {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  margin: 2px;
+  background-color: #85929E;
+  width: 200px;
+  height: 200px;
+  border: 4px solid black;
+}
+p {
+  position: absolute;
+  background: #85929E;
+  bottom: -1em;
+  border-top: 2px solid black;
+  border-right: 2px solid black;
+  padding: 5px;
+  margin-right: -2px;
+  font-size: 12pt;
+}
+img {
+  max-height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+#cell1 {
+	background-color: green;
+}
+
+#cell2 {
+	baclground-color: blue;
+}
+
+#cell3 {
+	background-color: red;
+}
+
+#grad {
+	background-image:
+	linear-gradient (top
+	right, red, yellow);
+}
